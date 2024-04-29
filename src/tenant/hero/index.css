@@ -3,6 +3,7 @@
     padding:0px 80px 88px 80px;
     width: 100vw;
     overflow-y: hidden;
+    overflow-x:hidden;
     justify-content: space-between;
     gap: 120px;
     
