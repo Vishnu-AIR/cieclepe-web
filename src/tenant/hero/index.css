@@ -1,0 +1,162 @@
+.landing{
+    display: flex;
+    padding:0px 80px 88px 80px;
+    width: 100vw;
+    overflow-y: hidden;
+    justify-content: space-between;
+    gap: 120px;
+    
+}
+
+.hero-bg {
+    width: 100vw;
+    min-height: 775px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../components/assets/bg-hero.svg");
+}
+
+.inner-hero-head{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+            
+              
+}
+
+.hero-content {
+    width: auto;
+    height: auto;
+    padding-top: 88px;
+    
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 80px;
+}
+
+.hero-heading {
+    width: auto;
+    color: #333;
+    /* font-family: Poppins; */
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 156%;
+    /* 78px */
+    letter-spacing: 1.5px;
+    position: relative;
+
+
+}
+
+.hero-button {
+    display: flex;
+    /* padding: 24px;width: 300px; */
+    flex-direction: row;
+    gap: 32px;
+    border-radius: 8px;
+    background: #222;
+    box-shadow: 1px 4px 21px 0px rgba(47, 47, 47, 0.26);
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+
+}
+
+
+
+.button-text {
+    color: #F2F2F2;
+    /* font-family: "League Spartan"; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    /* 20px */
+}
+
+.hero-para {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    color: #777;
+width: 680px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 156%;
+    /* 34.32px */
+    letter-spacing: 0.44px;
+}
+
+.lineres{
+    position:absolute;
+    right:570px;
+    top:56px;
+    width:96px;
+}
+
+.resh{
+    height: 16px;
+}
+
+@media screen and (max-width: 1096px)  {
+ .landing{
+    flex-direction: column;
+    padding: 50px 16px;
+
+ }
+ .hero-content{
+    text-align: center;
+    width: auto;
+    gap: 24px;
+ }
+ .hero-heading{
+    margin: auto;
+    width: 100%;
+ }
+ .hero-para{
+    margin: auto;
+    width: auto;
+    text-align: center;
+    
+ }
+.inner-hero-head{
+    margin: auto;
+    align-items: center;
+    gap: 24px;
+    
+}
+.hero-button{
+    margin: auto;
+}
+.hero-heading{
+    font-size: 24px;
+    gap: 32px;
+}
+.hero-para{
+    font-size: 14px;
+    width: auto;
+}
+.hero-button{
+    padding: 16px 16px 16px 16px;
+    gap: 16px;
+}
+.button-text{
+    font-size: 14px;
+}
+.resh{
+    height: 10px;
+}
+.lineres{
+    position:absolute;
+    right:274px;
+    top:33px;
+    width:64px;
+}
+}
